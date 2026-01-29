@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Local AI Agents | Privacy-First SME Automation</title>
+    <title>Agentes de IA Locales | Automatización Privada para PyMEs</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -57,18 +57,18 @@
             <span>Local<span class="text-indigo-400">Agent</span></span>
         </div>
         <div class="hidden md:flex gap-8 text-sm font-medium text-gray-400">
-            <a href="#features" class="hover:text-white transition">Features</a>
-            <a href="#chat" class="hover:text-white transition">Get Started</a>
+            <a href="#caracteristicas" class="hover:text-white transition text-sm">Características</a>
+            <a href="#chat" class="bg-white/5 border border-white/10 px-4 py-2 rounded-lg hover:bg-white/10 transition">Empezar ahora</a>
         </div>
     </nav>
 
     <header class="max-w-7xl mx-auto px-8 pt-20 pb-12 text-center">
         <h1 class="text-5xl md:text-7xl font-bold tracking-tight leading-tight">
-            Automate your SME with <br>
-            <span class="gradient-text">Privacy-First AI.</span>
+            Automatiza tu PyME con <br>
+            <span class="gradient-text">IA de Privacidad Total.</span>
         </h1>
         <p class="mt-6 text-gray-400 text-lg md:text-xl max-w-2xl mx-auto leading-relaxed">
-            Deploy powerful Local-First AI agents that live on your hardware. No data leaks, no monthly per-user fees, total control.
+            Despliega agentes de IA "Local-First" en tu propia infraestructura. Sin fugas de datos, sin cuotas mensuales por usuario y con control absoluto.
         </p>
     </header>
 
@@ -77,14 +77,14 @@
             <div class="bg-white/5 px-6 py-4 flex items-center justify-between border-b border-white/5">
                 <div class="flex items-center gap-3">
                     <div class="w-2 h-2 bg-green-500 rounded-full animate-pulse"></div>
-                    <span class="text-xs uppercase tracking-widest font-semibold text-gray-400">AI Consultation Agent</span>
+                    <span class="text-xs uppercase tracking-widest font-semibold text-gray-400">Agente de Consultoría IA</span>
                 </div>
-                <button onclick="clearChat()" class="text-xs text-gray-500 hover:text-gray-300 transition">Clear History</button>
+                <button onclick="clearChat()" class="text-xs text-gray-500 hover:text-gray-300 transition">Borrar Historial</button>
             </div>
 
             <div id="chat-window" class="chat-container overflow-y-auto p-6 space-y-4 flex flex-col">
                 <div class="bg-indigo-600/10 text-indigo-200 self-start p-4 rounded-2xl rounded-tl-none max-w-[85%] text-sm">
-                    Hello! I'm your local automation strategist. How can I help you reclaim your time today?
+                    ¡Hola! Soy tu estratega de automatización local. ¿Cómo puedo ayudarte a optimizar tus procesos hoy?
                 </div>
             </div>
 
@@ -98,42 +98,42 @@
                 <input 
                     type="text" 
                     id="user-input" 
-                    placeholder="Type your question..." 
+                    placeholder="Escribe tu pregunta aquí..." 
                     class="flex-1 bg-[#1a1a1a] border border-white/10 rounded-xl px-4 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 transition"
                     required
                 >
                 <button type="submit" class="bg-indigo-600 hover:bg-indigo-500 text-white px-6 py-3 rounded-xl transition font-semibold text-sm">
-                    Send
+                    Enviar
                 </button>
             </form>
         </div>
         <p class="text-center mt-6 text-xs text-gray-600">
-            Encrypted interaction. No data is stored on our servers.
+            Interacción cifrada. No se almacenan datos en servidores externos.
         </p>
     </section>
 
-    <section id="features" class="max-w-7xl mx-auto px-8 py-24 grid md:grid-cols-3 gap-12">
+    <section id="caracteristicas" class="max-w-7xl mx-auto px-8 py-24 grid md:grid-cols-3 gap-12">
         <div class="space-y-4">
             <h3 class="text-lg font-semibold text-indigo-400">Local-First</h3>
-            <p class="text-sm text-gray-400">Run LLMs on your own infrastructure. Your data never leaves your network, ensuring 100% compliance with strict privacy laws.</p>
+            <p class="text-sm text-gray-400">Ejecuta modelos de lenguaje en tu propio hardware. Tus datos nunca salen de tu red, garantizando privacidad total y cumplimiento legal.</p>
         </div>
         <div class="space-y-4">
-            <h3 class="text-lg font-semibold text-indigo-400">Zero Subscriptions</h3>
-            <p class="text-sm text-gray-400">Forget $20/mo per seat. Once deployed, these agents operate at the cost of electricity. Infinite scaling for zero extra cost.</p>
+            <h3 class="text-lg font-semibold text-indigo-400">Cero Suscripciones</h3>
+            <p class="text-sm text-gray-400">Olvídate de pagar $20/mes por cada empleado. Una vez desplegados, tus agentes operan al costo de la electricidad. Escalabilidad sin límites.</p>
         </div>
         <div class="space-y-4">
-            <h3 class="text-lg font-semibold text-indigo-400">SME Optimized</h3>
-            <p class="text-sm text-gray-400">Pre-built workflows for customer support, document analysis, and lead qualification tailored for small and medium businesses.</p>
+            <h3 class="text-lg font-semibold text-indigo-400">Diseñado para PyMEs</h3>
+            <p class="text-sm text-gray-400">Flujos de trabajo pre-configurados para soporte al cliente, análisis de documentos y calificación de prospectos para pequeñas empresas.</p>
         </div>
     </section>
 
     <footer class="text-center py-12 border-t border-white/5 text-gray-600 text-sm">
-        &copy; 2026 LocalAgent AI. Built for the privacy-conscious enterprise.
+        &copy; 2026 LocalAgent AI. Construido para la empresa consciente de su privacidad.
     </footer>
 
     <script>
-        /** * CONFIGURATION
-         * Replace the URL below with your actual n8n production webhook URL
+        /** * CONFIGURACIÓN
+         * Reemplaza la URL de abajo por tu Webhook real de n8n
          */
         const N8N_WEBHOOK_URL = '{{N8N_WEBHOOK_URL}}';
 
@@ -142,7 +142,7 @@
         const userInput = document.getElementById('user-input');
         const loadingIndicator = document.getElementById('loading');
 
-        // Initialize chat from LocalStorage
+        // Cargar historial desde LocalStorage al iniciar
         document.addEventListener('DOMContentLoaded', () => {
             const history = JSON.parse(localStorage.getItem('chat_history')) || [];
             history.forEach(msg => appendMessage(msg.role, msg.text));
@@ -154,7 +154,7 @@
             const message = userInput.value.trim();
             if (!message) return;
 
-            // Update UI
+            // Actualizar Interfaz
             appendMessage('user', message);
             saveToStorage('user', message);
             userInput.value = '';
@@ -171,18 +171,18 @@
                     })
                 });
 
-                if (!response.ok) throw new Error('Network error');
+                if (!response.ok) throw new Error('Error de conexión');
 
                 const data = await response.json();
-                // Assuming n8n returns { "output": "..." } or similar structure
-                const botReply = data.output || data.response || "I've received your message. One of our engineers will follow up shortly.";
+                // n8n debe devolver { "output": "..." }
+                const botReply = data.output || data.response || "He recibido tu mensaje. Un consultor se pondrá en contacto contigo pronto.";
                 
                 appendMessage('bot', botReply);
                 saveToStorage('bot', botReply);
 
             } catch (error) {
                 console.error(error);
-                appendMessage('bot', 'Sorry, I am having trouble connecting to the local server. Please try again later.');
+                appendMessage('bot', 'Lo siento, tengo problemas para conectar con el servidor local. Por favor, inténtalo de nuevo más tarde.');
             } finally {
                 showLoading(false);
                 scrollToBottom();
